@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F17010C90554520D808870D /* libPods-OnlineNotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9324D7382FAC1CDB6A29D18A /* libPods-OnlineNotes.a */; };
+		A823EBA625960C210010B4DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823EBA525960C210010B4DB /* AppDelegate.swift */; };
+		A823EBA825960C210010B4DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823EBA725960C210010B4DB /* SceneDelegate.swift */; };
+		A823EBAF25960C220010B4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A823EBAE25960C220010B4DB /* Assets.xcassets */; };
+		A823EBC4259610FF0010B4DB /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823EBC2259610FF0010B4DB /* NotesViewController.swift */; };
+		A823EBC5259610FF0010B4DB /* NotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A823EBC3259610FF0010B4DB /* NotesViewController.xib */; };
+		A823EBC82596176E0010B4DB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823EBC72596176E0010B4DB /* Note.swift */; };
+		A8460CFF259DFF45000D5AFD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8460CFE259DFF45000D5AFD /* GoogleService-Info.plist */; };
+		A87AFF8E259773E10000D7E6 /* NoteConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87AFF8D259773E10000D7E6 /* NoteConstants.swift */; };
+		A8C6D17F259CB6BC00028E4D /* FontSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C6D17E259CB6BC00028E4D /* FontSlider.swift */; };
+		A8D25E46259A4F8900CA7764 /* TextView.NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D25E45259A4F8900CA7764 /* TextView.NotesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21E0E31965D94406240DD844 /* Pods-OnlineNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineNotes.release.xcconfig"; path = "Target Support Files/Pods-OnlineNotes/Pods-OnlineNotes.release.xcconfig"; sourceTree = "<group>"; };
+		9324D7382FAC1CDB6A29D18A /* libPods-OnlineNotes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnlineNotes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A823EBA225960C210010B4DB /* OnlineNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A823EBA525960C210010B4DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A823EBA725960C210010B4DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A823EBAE25960C220010B4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A823EBB325960C220010B4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A823EBC2259610FF0010B4DB /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		A823EBC3259610FF0010B4DB /* NotesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesViewController.xib; sourceTree = "<group>"; };
+		A823EBC72596176E0010B4DB /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		A8460CFE259DFF45000D5AFD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A87AFF8D259773E10000D7E6 /* NoteConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteConstants.swift; sourceTree = "<group>"; };
+		A8C6D17E259CB6BC00028E4D /* FontSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSlider.swift; sourceTree = "<group>"; };
+		A8D25E45259A4F8900CA7764 /* TextView.NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.NotesViewController.swift; sourceTree = "<group>"; };
+		FA82AB108564E8CA40E2FF0F /* Pods-OnlineNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineNotes.debug.xcconfig"; path = "Target Support Files/Pods-OnlineNotes/Pods-OnlineNotes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A823EB9F25960C210010B4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F17010C90554520D808870D /* libPods-OnlineNotes.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8596AB529A83D98FB6039DB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA82AB108564E8CA40E2FF0F /* Pods-OnlineNotes.debug.xcconfig */,
+				21E0E31965D94406240DD844 /* Pods-OnlineNotes.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A823EB9925960C210010B4DB = {
+			isa = PBXGroup;
+			children = (
+				A823EBA425960C210010B4DB /* OnlineNotes */,
+				A823EBA325960C210010B4DB /* Products */,
+				8596AB529A83D98FB6039DB3 /* Pods */,
+				BAE87E9E48228933D0061B5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A823EBA325960C210010B4DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A823EBA225960C210010B4DB /* OnlineNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A823EBA425960C210010B4DB /* OnlineNotes */ = {
+			isa = PBXGroup;
+			children = (
+				A87AFF8C259773CF0000D7E6 /* Constants */,
+				A823EBBC2596100B0010B4DB /* Application */,
+				A823EBA525960C210010B4DB /* AppDelegate.swift */,
+				A823EBA725960C210010B4DB /* SceneDelegate.swift */,
+				A823EBAE25960C220010B4DB /* Assets.xcassets */,
+				A823EBB325960C220010B4DB /* Info.plist */,
+				A8460CFE259DFF45000D5AFD /* GoogleService-Info.plist */,
+			);
+			path = OnlineNotes;
+			sourceTree = "<group>";
+		};
+		A823EBBC2596100B0010B4DB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A8D25E44259A4F5D00CA7764 /* Extensions */,
+				A823EBBD2596102F0010B4DB /* Model */,
+				A823EBBE259610390010B4DB /* View */,
+				A823EBBF259610400010B4DB /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A823EBBD2596102F0010B4DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A823EBC72596176E0010B4DB /* Note.swift */,
+				A8C6D17E259CB6BC00028E4D /* FontSlider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A823EBBE259610390010B4DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A823EBC3259610FF0010B4DB /* NotesViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A823EBBF259610400010B4DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A823EBC2259610FF0010B4DB /* NotesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A87AFF8C259773CF0000D7E6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A87AFF8D259773E10000D7E6 /* NoteConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A8D25E44259A4F5D00CA7764 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8D25E45259A4F8900CA7764 /* TextView.NotesViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BAE87E9E48228933D0061B5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9324D7382FAC1CDB6A29D18A /* libPods-OnlineNotes.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A823EBA125960C210010B4DB /* OnlineNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A823EBB625960C220010B4DB /* Build configuration list for PBXNativeTarget "OnlineNotes" */;
+			buildPhases = (
+				93DF86994DBE2C82F4EF2A34 /* [CP] Check Pods Manifest.lock */,
+				A823EB9E25960C210010B4DB /* Sources */,
+				A823EB9F25960C210010B4DB /* Frameworks */,
+				A823EBA025960C210010B4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlineNotes;
+			productName = OnlineNotes;
+			productReference = A823EBA225960C210010B4DB /* OnlineNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A823EB9A25960C210010B4DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A823EBA125960C210010B4DB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = A823EB9D25960C210010B4DB /* Build configuration list for PBXProject "OnlineNotes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A823EB9925960C210010B4DB;
+			productRefGroup = A823EBA325960C210010B4DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A823EBA125960C210010B4DB /* OnlineNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A823EBA025960C210010B4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A823EBAF25960C220010B4DB /* Assets.xcassets in Resources */,
+				A823EBC5259610FF0010B4DB /* NotesViewController.xib in Resources */,
+				A8460CFF259DFF45000D5AFD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93DF86994DBE2C82F4EF2A34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnlineNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A823EB9E25960C210010B4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C6D17F259CB6BC00028E4D /* FontSlider.swift in Sources */,
+				A823EBA625960C210010B4DB /* AppDelegate.swift in Sources */,
+				A87AFF8E259773E10000D7E6 /* NoteConstants.swift in Sources */,
+				A823EBA825960C210010B4DB /* SceneDelegate.swift in Sources */,
+				A823EBC4259610FF0010B4DB /* NotesViewController.swift in Sources */,
+				A8D25E46259A4F8900CA7764 /* TextView.NotesViewController.swift in Sources */,
+				A823EBC82596176E0010B4DB /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A823EBB425960C220010B4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A823EBB525960C220010B4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A823EBB725960C220010B4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA82AB108564E8CA40E2FF0F /* Pods-OnlineNotes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNV8H5N4B3;
+				INFOPLIST_FILE = OnlineNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TiovZhen.OnlineNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A823EBB825960C220010B4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E0E31965D94406240DD844 /* Pods-OnlineNotes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNV8H5N4B3;
+				INFOPLIST_FILE = OnlineNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TiovZhen.OnlineNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A823EB9D25960C210010B4DB /* Build configuration list for PBXProject "OnlineNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A823EBB425960C220010B4DB /* Debug */,
+				A823EBB525960C220010B4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A823EBB625960C220010B4DB /* Build configuration list for PBXNativeTarget "OnlineNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A823EBB725960C220010B4DB /* Debug */,
+				A823EBB825960C220010B4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A823EB9A25960C210010B4DB /* Project object */;
+}
